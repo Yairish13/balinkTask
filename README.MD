@@ -17,4 +17,5 @@ Thats how the server works with a JWT authentication in Postman
 
 
 I have used the mySQL cloud enviorment of AWS with express server and JWT.
-Have a good time :)
+
+Thank you and have a good time :)
