@@ -15,4 +15,6 @@ Thats how the server works with a JWT authentication in Postman
  
  <img width="416" alt="11" src="https://user-images.githubusercontent.com/67858239/112888787-76309680-90dd-11eb-9feb-91ecf0b96234.png">
 
+
+I have used the mySQL cloud enviorment of AWS with express server and JWT.
 Have a good time :)
