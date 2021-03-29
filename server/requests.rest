@@ -1,5 +1,5 @@
 //valid request with authorization
-get http://localhost:8080/api/v1/person/3
+get http://localhost:8080/api/v1/animals/3
 Content-type: application/json
 Authorization: bearer eyJhbGciOiJIUzI1NiJ9.YWRtaW4.rQcV8hBuDpWeLoRzKKaOFUVhiC7XIiDY8y7Rnth5FBg
 ### 
