@@ -1,7 +1,7 @@
 # Welcome To The Balink Task
  run the server and get info from the cloud DB - clone --> cd server --> yarn --> node . .
  
-Thats how to server works with authentication 
+Thats how the server works with authentication 
  ![aaaaa](https://user-images.githubusercontent.com/67858239/112889224-0a9af900-90de-11eb-8107-2f5ca113e4c7.gif)
 
  
