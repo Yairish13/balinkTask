@@ -4,7 +4,7 @@ const db = require('../../../index');
 
 router.get("/", (req, res) => {
   let sql = "SELECT * FROM animals;";
-  let query = db.query(sql, (error, result) => {
+  db.query(sql, (error, result) => {
     if (error) return res.json({error}) ;
     res.json(result);
   });
@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
 
 router.get("/:id", (req, res) => {
   let sql = `SELECT * FROM animals WHERE animals.id=${req.params.id}`;
-  let query = db.query(sql, (error, result) => {
+  db.query(sql, (error, result) => {
     if (error) return res.json({error}) ;
     res.json(result);
   });

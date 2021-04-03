@@ -5,7 +5,7 @@ const db = require('../../../index');
 
 router.get("/:id", (req, res) => {
   let sql = `SELECT * FROM balink.membership JOIN balink.person on person.id=membership.personid JOIN balink.animals on animals.id=membership.animalid WHERE person.id=${req.params.id};`;
-  let query = db.query(sql, (error, result) => {
+  db.query(sql, (error, result) => {
     if (error) return res.json({error}) ;
     res.json(result);
   });

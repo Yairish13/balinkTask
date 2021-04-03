@@ -1,9 +1,9 @@
-// balink-database.ckw7ejg6bise.eu-west-2.rds.amazonaws.com
 const express = require("express");
 const mysql = require("mysql");
 const jwt = require("jsonwebtoken");
 const app = express();
 
+//Here is the connection to the cloud DB AWS
 //usually inserting the password into .env files or from the secured database but here for the task ill do something random
 const db = mysql.createConnection({
   host: "balink-database.ckw7ejg6bise.eu-west-2.rds.amazonaws.com",
